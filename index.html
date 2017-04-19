@@ -155,7 +155,7 @@
 			grades = ["Yes", "No", "Maybe"],
 			labels = [];
 
-		for grade in grades {
+		for (var grade in grades) {
 			labels.push(
 				'<i style="background:' + getColor(grade) + '"></i> ' + grade);
 		}
